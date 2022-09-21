@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
@@ -5,6 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -32,9 +36,9 @@ a {
 }
 
 .links_conteiner .item_link:hover {
-  background-color: #EBCC80;
-  color: #ffffff;
+  color: #EBCC80;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .logo_nav {
@@ -89,27 +93,6 @@ a {
   justify-content: center;
   align-items: center;
   padding: 10px 20px;
-}
-
-.tex_section h1 {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 70px;
-  
-}
-
-.tex_section h2 {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 80px;
 }
 
 #btn_section {
@@ -219,7 +202,6 @@ a {
   text-align: center;
   width: 100%;
   height: auto;
-  margin: 10px;
 }
 
 .contact h1 {
@@ -368,3 +350,8 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+
+
+
+
+@tailwind utilities;
