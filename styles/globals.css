@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.nav_principal {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999999999;
+}
+
+.links_conteiner .item_link:hover {
+  background-color: #EBCC80;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.logo_nav {
+  max-width: 100%;
+}
+
+.links_conteiner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.links_conteiner .item_link {
+  color: #ffffff;
+  font-family: 'Goldman', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  margin: auto 20px;
+  border-radius: 10px;
+}
+
+#contact_btn {
+  padding: 10px 20px;
+  background-color: #EBCC80;
+  border-radius: 60px;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  font-family: 'Goldman', sans-serif;
+  color: #ffffff;
+  padding: 15px;
+  margin: auto 20px;
+  
+
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  
+}
+
+.conteiner_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.tex_section h1 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  
+}
+
+.tex_section h2 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 80px;
+}
+
+#btn_section {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  font-weight: 400;
+  border: 2px solid #000000;
+  font-family:'Montserrat', sans-serif;
+  color: #000000;
+  margin: auto 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+#btn_section:hover {
+  background-color: #EBCC80;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.container_about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.img_about {
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+.text_about h1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Goldman', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 84px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.text_about h2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 52px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.services_conteiner {
+  width: 100%;
+  height: auto;
+  background-color: #EBCC80;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.serv_tex {
+  text-align: center;
+  font-family: 'Goldman', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.services h2 {
+  text-align: center;
+  font-family: 'Goldman', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+
+}
+
+.contact {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.contact h1 {
+  font-family:'Goldman', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 30px;
+}
+
+.contact span {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.h_contact{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m_contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  margin-top: 35px;
+}
+
+.contact .formulario {
+  background-color:#F5E4B1;
+  max-width: 500px;
+  height: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+.text_campos {
+  font-family:'Goldman', sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  border: none;
+  border-bottom: 3px solid #000000;
+  margin: 10px auto;
+  width: 90%;
+}
+
+#btn_enviar {
+  font-family:'Goldman', sans-serif;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  font-weight: 400;
+  border: 2px solid #000000;
+  color: #000000;
+  margin-top: 15px;
+}
+
+#btn_enviar:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+.footer_conteiner {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #000000;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo_footer {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Goldman', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.cont_footer {
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Goldman', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.redes_footer {
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Goldman', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.imgs_redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img_footer {
+  margin: 0 10px;
+}
+
+.derechos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
