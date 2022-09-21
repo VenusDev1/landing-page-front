@@ -8,26 +8,21 @@ import Services from '../components/Services/Services'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
+import BaseLayout from '../components/Layouts/BaseLayout'
 
 function Index() {
   return (
-    <div className={styles.container}>
-
+    <BaseLayout>
       <Header/>
-      
-
         <body>
           <Navbar/>
           <Section/>
           <About/>
-          <Services/>
+          {/* <Services/> */}
           <Contact/>
           <Footer/>
         </body>
-
-        
-
-    </div>)
+    </BaseLayout>)
 }
 
 export default Index;
