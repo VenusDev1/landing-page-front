@@ -21,15 +21,15 @@ function Footer () {
                             <h2>Redes Sociales</h2>
 
                             <div className='imgs_redes'>
-                                <div>
-                                    <Link href= '#'>
-                                        <a><img src='img/ig_footer.png' alt='Logo Venus'/></a>
+                                <div className='img_footer'>
+                                    <Link href= 'https://www.instagram.com/venusdevit/'>
+                                        <a><img width={50} src='img/ig_footer.png' alt='Logo Venus'/></a>
                                     </Link> 
                                 </div>
 
                                 <div>
                                     <Link href= '#'>
-                                        <a><img src='img/lk_footer.png' alt='Logo Venus'/></a>
+                                        <a><img width={50} src='img/lk_footer.png' alt='Logo Venus'/></a>
                                     </Link>
                                 </div>
 

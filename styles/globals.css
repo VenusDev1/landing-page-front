@@ -28,6 +28,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999999999999999;
 }
 
 .links_conteiner .item_link:hover {
@@ -70,6 +71,7 @@ a {
   color: #ffffff;
   padding: 15px;
   margin: auto 20px;
+  
 
 }
 
@@ -97,6 +99,7 @@ a {
   font-weight: 400;
   font-size: 50px;
   line-height: 70px;
+  
 }
 
 .tex_section h2 {
@@ -118,6 +121,7 @@ a {
   font-family:'Montserrat', sans-serif;
   color: #000000;
   margin: auto 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 }
 
 #btn_section:hover {
@@ -168,7 +172,6 @@ a {
   line-height: 52px;
   padding: 10px 20px;
   margin: 0 auto;
-
 }
 
 .services_conteiner {
@@ -241,7 +244,6 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
 }
 
 .m_contact {
@@ -271,6 +273,7 @@ a {
   border: none;
   border-bottom: 3px solid #000000;
   margin: 10px auto;
+  width: 90%;
 }
 
 #btn_enviar {
@@ -290,13 +293,14 @@ a {
   transition: 0.1s;
 }
 
-.footer_conteiner{
-  width: 100%;
+.footer_conteiner {
   height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .footer {
@@ -304,7 +308,6 @@ a {
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .logo_footer {
@@ -315,6 +318,8 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .cont_footer {
@@ -325,6 +330,8 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .redes_footer {
@@ -334,12 +341,19 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .imgs_redes {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.img_footer {
+  margin: 0 10px;
 }
 
 .derechos {
@@ -351,4 +365,6 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 10px;
+  width: 100%;
+  margin: 0 auto;
 }
