@@ -2,8 +2,8 @@ import styles from '../../styles/Home.module.css'
 import Image from 'next/image'
 
 function Contact () {
-    return (<section className='contact'>
-                <header className='h_contact'>
+    return (<section className='contact w-[100%] h-[100vh] flex flex-col items-center '>
+                <header className='h_contact mt-10'>
                     <h1>Contact</h1>
                     <span>No dudes en contactarnos si tienes dudas, quieres trabajar con nosotros o quieres que desarrollemos algo para ti o tu empresa</span>
                 </header>
