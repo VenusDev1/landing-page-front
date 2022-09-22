@@ -8,6 +8,7 @@ import Services from '../components/Services/Services'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
+import Clients from '../components/Clients/Clients'
 
 function Index() {
   return (

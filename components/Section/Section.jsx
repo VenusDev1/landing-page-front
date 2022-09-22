@@ -7,8 +7,8 @@ function Section () {
 
                 <div className='conteiner_section'>
                     <div className='tex_section'>
-                        <h1>Expande tu negocio a travez de la tecnología</h1>
-                        <h2>En VENUS Dev te ayudamos a lograrlo</h2>
+                        <h1 id='efect_tex_section'>Expande tu negocio a travez de la tecnología</h1>
+                        <h2 id='efect_tex_section'>En VENUS Dev te ayudamos a lograrlo</h2>
 
                         <div>
                             <Link href='#'>
@@ -20,7 +20,7 @@ function Section () {
                 </div>
 
                 <div className='conteiner_section'>
-                    <img src='img/hero_img.png' alt='section_img'/>
+                    <img id='img_section' src='img/hero_img.png' alt='section_img'/>
                 </div>
             
             </section>)

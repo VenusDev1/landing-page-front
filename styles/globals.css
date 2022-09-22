@@ -5,6 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.6698879380853904) -23%, rgba(235,204,128,1) 60%);
 }
 
 a {
@@ -28,7 +29,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999999999999999;
+  z-index: 999;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 }
 
 .links_conteiner .item_link:hover {
@@ -80,6 +82,7 @@ a {
   justify-content: space-between;
   width: 100%;
   height: auto;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
   
 }
 
@@ -99,7 +102,6 @@ a {
   font-weight: 400;
   font-size: 50px;
   line-height: 70px;
-  
 }
 
 .tex_section h2 {
@@ -125,9 +127,9 @@ a {
 }
 
 #btn_section:hover {
-  background-color: #EBCC80;
+  background-color: #000000;
   color: #ffffff;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 .about {
@@ -135,6 +137,7 @@ a {
   justify-content: space-between;
   width: 100%;
   height: auto;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
 }
 
 .container_about {
@@ -170,18 +173,18 @@ a {
   font-weight: 300;
   font-size: 30px;
   line-height: 52px;
-  padding: 10px 20px;
+  padding: 10px 65px;
   margin: 0 auto;
 }
 
 .services_conteiner {
   width: 100%;
   height: auto;
-  background-color: #EBCC80;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -192,6 +195,7 @@ a {
   padding: 10px 20px;
   width: 100%;
   height: auto;
+  
 }
 
 .serv_tex {
@@ -261,6 +265,7 @@ a {
   height: auto;
   padding: 30px;
   border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 }
 
 
