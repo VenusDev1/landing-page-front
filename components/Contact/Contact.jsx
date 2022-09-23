@@ -1,6 +1,3 @@
-import styles from '../../styles/Home.module.css'
-import Image from 'next/image'
-
 function Contact () {
     return (<section className='contact w-[100%] h-[100vh] flex flex-col items-center '>
                 <header className='h_contact mt-10'>

@@ -1,5 +1,3 @@
-import styles from '../../styles/Home.module.css'
-import Image from 'next/image'
 
 function About () {
     return (<about className='w-[100%] h-[100vh] flex flex-row  '>

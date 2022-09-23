@@ -1,5 +1,3 @@
-import styles from '../../styles/Home.module.css'
-import Image from 'next/image'
 
 function Services () {
     return (<div className='services_conteiner'>
