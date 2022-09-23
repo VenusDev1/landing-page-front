@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 
 function Footer () {
-    return (<footer className='footer'>
+    return (<footer className='footer h-[40vh] '>
 
                 <div className='footer_conteiner'>
                     <div className='logo_footer'>

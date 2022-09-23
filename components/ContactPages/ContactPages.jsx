@@ -1,17 +1,13 @@
 import styles from '../../styles/Home.module.css'
 import Image from 'next/image'
 
-function Contact () {
-    return (<section className='contact w-[100%] h-[100vh] flex flex-col items-center '>
-                <header className='h_contact mt-10'>
-                    <h1>Contact</h1>
-                    <span>No dudes en contactarnos si tienes dudas, quieres trabajar con nosotros o quieres que desarrollemos algo para ti o tu empresa</span>
-                </header>
-                <main className='m_contact'>
-                    <form>
-                            <div className='formulario'>
+function ContactPages () {
+    return (<section className='contact'>
+                <main className='m_contact w-[100%] h-[100vh] flex flex-row items-center '>
+                    <form items-center>
+                            <div className='m-[10px] items-center rounded-none w-[100%] p-8 bg-gradient-to-b from-[#EBCC80] to-[#F5E4B1] '>
                                 <div>
-                                    <input className='text_campos' type="text" placeholder="Nombre"/>  
+                                    <input className='text_campos ' type="text" placeholder="Nombre"/>  
                                 </div>    
 
                                 <div>
@@ -33,7 +29,15 @@ function Contact () {
                             </div>
 
                     </form>
-                </main>    
+
+                    <img width={550} src='img/contact_page.png' alt='Logo Venus'/>
+                </main>
+                
+                <div>
+                   <h2 className='text-xl lg:text-4xl font-normal font-montserrat mt-5 text-center m-20 p-5 '>No te quedes sin tu pagina web. Contactanos</h2> 
+                </div>
+                
+
             </section>)
 }
-export default Contact;
+export default ContactPages;

@@ -21,7 +21,7 @@ function Navbar () {
                         <a className='item_link'>Servicios</a>
                     </Link>
                     
-                    <Link href='#'>
+                    <Link href='/Contact'>
                         <a id='contact_btn'>Contact</a>
                     </Link>
                 </div>

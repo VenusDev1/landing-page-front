@@ -2,33 +2,27 @@ import Body from '../components/Body/Body'
 import Navbar from '../components/Navbar/Navbar'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Section from '../components/Section/Section'
+import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import Services from '../components/Services/Services'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import Clients from '../components/Clients/Clients'
+import BaseLayout from '../components/Layouts/BaseLayout'
 
 function Index() {
   return (
-    <div className={styles.container}>
-
+    <BaseLayout>
       <Header/>
-      
-
         <body>
           <Navbar/>
-          <Section/>
+          <Hero/>
           <About/>
-          <Services/>
+          {/* <Services/> */}
           <Contact/>
           <Footer/>
         </body>
-
-        
-
-    </div>)
+    </BaseLayout>)
 }
 
 export default Index;
