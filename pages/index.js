@@ -11,16 +11,13 @@ import BaseLayout from '../components/Layouts/BaseLayout'
 function Index() {
   return (
     <BaseLayout namePage='Venus Dev' >
-      <Header/>
-        <body>
-          <Navbar/>
-          <Hero/>
-          <About/>
-          {/* <Services/> */}
-          <div className='w-[100%] h-[150px] bg-black ' />
-          <ContactPages/>
-          <Footer/>
-        </body>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      {/* <Services/> */}
+      <div className='w-[100%] h-[150px] bg-black ' />
+      <ContactPages/>
+      <Footer/>
     </BaseLayout>)
 }
 
