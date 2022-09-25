@@ -9,7 +9,7 @@ function Navbar () {
                 </Link>             
             </div>
             <div className='flex flex-row mr-[20px]'>
-                <Link  href='/our-work'>
+                <Link  href='/ourwork'>
                     <a className='px-8 py-2 font-goldman text-xl text-white hover:text-sy '>Nuestro Trabajo</a>
                 </Link>               
                 <Link href='/services'>

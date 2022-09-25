@@ -7,9 +7,9 @@ export default function Index () {
     return (
         <BaseLayout namePage='Our Work Venus'>
             <Navbar />
-            <div className="w-[100%] h-[100vh] flex justify-center items-center ">
-                <h1>Pagina Our Work</h1>
-            </div>
+                <div className="w-[100%] h-[100vh] flex justify-center items-center ">
+                    <h1>Pagina Our Work</h1>
+                </div>
             <Footer />
         </BaseLayout>
     )
