@@ -19,13 +19,13 @@ function ContactPages () {
 
 
     return (
-        <section className='w-[100%] h-[100vh] flex flex-col'>
+        <section className='w-[100%] h-[120vh] mt-20 flex flex-col'>
             <div className='flex flex-row w-[100%] h-[80%] '>
                 <div className='w-[50%] h-[100%] p-8  bg-gradient-to-b from-[#ededed] to-[#F5E4B1]  '>
                     <form onSubmit={sendEmail} className='w-[100%] h-[100%] '>
                         <div className='w-[90%] h-[100%] mx-auto  flex flex-col justify-center'>
-                            <h3 className='text-5xl font-goldman font-semibold ' >Contacto</h3>
-                            <h5 className='text-2xl ' >Envianos un mail y nuestro equipo se contactara con usted para ayudarlo a resolver su problema lo antes posible.</h5>
+                            <h3 className='text-5xl text-center font-goldman font-semibold ' >Contacto</h3>
+                            <h5 className='text-2xl text-center ' >Envianos un mail y nuestro equipo se contactara con usted para ayudarlo a resolver su problema lo antes posible.</h5>
                             <div>
                                 <input className='text_campos ' type='text' placeholder='Nombre' name='user_name'/>  
                             </div>
@@ -53,7 +53,7 @@ function ContactPages () {
                 </div>
             </div>
             <div className='w-[100%] h-[20%] flex justify-center items-center'>
-                <h2 className='text-xl lg:text-4xl font-normal font-montserrat mt-5 text-center m-20 p-5 '>No te quedes sin tu pagina web. Contactanos</h2> 
+                <h2 className='text-xl lg:text-4xl font-normal font-montserrat mt-20 text-center m-20 p-10 '>No te quedes sin tu pagina web. Contactanos</h2> 
             </div>
         </section>
     )
