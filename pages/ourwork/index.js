@@ -3,7 +3,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
 import CTA from "../../components/CTA/CTA";
 
-
 export default function Index () {
     return (
         <BaseLayout namePage='Nuestro Trabajo'>
