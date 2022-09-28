@@ -8,14 +8,11 @@ import CTA from "../../components/CTA/CTA";
 
 export default function Index () {
     return (
-        <BaseLayout namePage='Services Venus' >
+        <BaseLayout namePage='Servicios Venus' >
             <Navbar/>
             <ServicesHero/>
-            <div>
-                <ServicesBody/>
                 <CTA/>
                 <Footer/>
-            </div>
         </BaseLayout>
     )
 }
