@@ -35,7 +35,7 @@ function Nm () {
                             <Link href='/services'>
                                 <a className='px-8 py-2 font-goldman text-xl text-white hover:text-sy mt-5'>Servicios</a>
                             </Link>             
-                            <Link href='/contacto'>
+                            <Link href='/contact'>
                                 <a className=' text-center px-4 py-2 bg-sy hover:bg-ty duration-300 font-goldman text-xl mt-3 text-white rounded-full border-4 border-white ' >
                                     Contacto
                                 </a>
