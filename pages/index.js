@@ -14,8 +14,8 @@ function Index() {
       <Navbar/>
       <Hero/>
       <About/>
-      {/* <Services/> */}
-      <div className='w-[100%] h-[150px] bg-black ' />
+      <Services/>
+      <div className='w-[100%] h-[100px] lg:h-[150px] bg-black ' />
       <ContactPages/>
       <Footer/>
     </BaseLayout>)
