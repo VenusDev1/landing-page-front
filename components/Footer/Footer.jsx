@@ -2,31 +2,31 @@ import Link from 'next/link';
 
 function Footer () {
     return (
-    <footer className='footer h-[45vh] z-[10]'>
-        <div className='footer_conteiner items-center'>
-            <div className='logo_footer'>
-                <img className='w-[100%] h-[100%]' src='img/venus_logo.png' alt='Logo Venus'/>
-                <h3 className='text-center text-2xl'>Agencia de Desarrollo y Marketing</h3>
+    <footer className=' bg-black h-[70vh] lg:h-[45vh] z-[10] p-3 '>
+        <div className='flex flex-col lg:flex-row lg:justify-between items-center lg:m-0 mb-5'>
+            <div className=' w-[80%] lg:w-[50%] mt-5 mb-10'>
+                <img className='w-[100%]' src='img/venus_logo.png' alt='Logo Venus'/>
+                <h3 className=' text-white m-auto font-goldman text-center text-xl'>Agencia de Desarrollo y Marketing</h3>
             </div> 
-            <div className='cont_footer'>
-                <h2 className='text-center text-3xl m-1 p-2'>Contacto</h2>
-                <h3 className='text-center text-2xl pb-3'>Mail: contacto@venusdev.com</h3>
-                <h3 className='text-center text-2xl'>Tel: +54 03513084848</h3>
+            <div className='w-[100%] lg:w-[50%] lg:flex flex-col lg:justify-center lg:items-center  mb-10'>
+                <h2 className='font-goldman text-[#F5E4B1] text-center text-2xl m-1 p-2'>Contacto</h2>
+                <h3 className='font-goldman text-white text-center text-xl pb-3'>Mail: contacto@venusdev.com</h3>
+                <h3 className='font-goldman text-white text-center text-xl'>Tel: +54 03513084848</h3>
             </div>
-            <div className='redes_footer mt-10'>
-                <h2 className='text-center text-3xl'>Redes Sociales</h2>
-                <div className='imgs_redes m-1 p-2'>
-                    <div className='img_footer'>
+            <div className='redes_footer w-[100%] lg:w-[50%]'>
+                <h2 className='font-goldman text-[#F5E4B1] text-center text-2xl'>Redes Sociales</h2>
+                <div className='mx-auto flex flex-row justify-between w-[160px]'>
+                    <div className=' w-[100%] lg:w-[100%]'>
                         <Link href= 'https://www.instagram.com/venusdevit/'>
-                            <a>
-                                <img  className='w-[100%] h-[100%] p-3' width={50} src='img/ig_footer.png' alt='Logo Venus'/>
+                            <a target="_blank">
+                                <img  className='w-[100%] h-[100%] p-3' src='/img/ig_footer.png' alt='Logo Venus'/>
                             </a>
                         </Link> 
                     </div>
-                    <div>
+                    <div className=' w-[100%] lg:w-[100%]'>
                         <Link href= '#'>
                             <a>
-                                <img className='w-[100%] h-[100%] p-3' width={50} src='img/lk_footer.png' alt='Logo Venus'/>
+                                <img className='w-[100px] lg:h-[100%] p-3' src='/img/lk_footer.png' alt='Logo Venus'/>
                             </a>
                         </Link>
                     </div>
