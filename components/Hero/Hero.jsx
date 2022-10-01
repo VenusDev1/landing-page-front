@@ -7,7 +7,7 @@ function Hero () {
           <h1 className="text-3xl lg:text-6xl font-semibold font-montserrat">Expande tu negocio a travez de la tecnología</h1>
           <h2 className="text-xl lg:text-4xl font-normal font-montserrat mt-5 ">En VENUS Dev te ayudamos a lograrlo</h2>
           <div className="mt-10 ">
-            <Link href="/contact">
+            <Link href="/contacto">
               <a id="btn_section">Contactanos</a>
             </Link>
           </div>
