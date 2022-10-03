@@ -13,7 +13,7 @@
   
   .area{
     background: #EBCC80;  
-    background: -webkit-linear-gradient(to left, #D0AD65, #4e54c8);  
+    background: -webkit-linear-gradient(to left, #D0AD65, #D0AD65);  
     width: 100%;
     height:100vh;
   }

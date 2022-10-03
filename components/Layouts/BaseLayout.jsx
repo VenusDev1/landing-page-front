@@ -4,11 +4,11 @@ const BaseLayout = ({ children, className, namePage }) => {
      return (
       <>
         <Header namePage={namePage} />
-        <div className="flex flex-col w-[100%] ">
-          <main className="w-[100%] mx-auto relative flex flex-col flex-1 h-screen overflow-y-auto">
+        <section className="flex flex-col w-[100%] ">
+          <div className="w-[100%] mx-auto relative flex flex-col flex-1 h-screen overflow-y-auto">
             {children}
-          </main>
-        </div>
+          </div>
+        </section>
       </>
      )
 };
