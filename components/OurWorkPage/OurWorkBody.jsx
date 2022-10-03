@@ -6,8 +6,8 @@ function OurWorkBody() {
                 <div className=" w-[100%] flex flex-col lg:flex-row lg:justify-between items-center border-[2px] border-solid bg-white border-black mb-10">
                     
                     <div className=' w-[100%] lg:h-[25vw] p-5'>
-                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web apps para empresas/negocios</h2>
-                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Nuestro equipo de expertos se toman el tiempo de conocer a nuestros clientes para que el desarrollo de su sitio web sea de mejor experiencia</p>
+                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Páginas web a medida para las nececidas de nuestros clientes</h2>
+                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Nuestro equipo de expertos se toman el tiempo de conocer a nuestros clientes para que el desarrollo de su sitio web sea de la mejor experiencia</p>
                     </div>
 
                     <div className='lg:w-[100%]'>
@@ -22,16 +22,16 @@ function OurWorkBody() {
                     </div>
                     
                     <div className=' w-[100%] lg:h-[25vw] p-5'>
-                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web apps para empresas/negocios</h2>
-                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Nuestro equipo de expertos se toman el tiempo de conocer a nuestros clientes para que el desarrollo de su sitio web sea de mejor experiencia</p>
+                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web apps para negocios</h2>
+                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>...</p>
                     </div>
                 </div>
                 
                 <div className=" w-[100%] flex flex-col lg:flex-row lg:justify-between items-center border-[2px] border-solid bg-white border-black mb-10">
                     
                     <div className=' w-[100%] lg:h-[25vw] p-5'>
-                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web apps para empresas/negocios</h2>
-                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Nuestro equipo de expertos se toman el tiempo de conocer a nuestros clientes para que el desarrollo de su sitio web sea de mejor experiencia</p>
+                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Mantenimiento y actualizaciones</h2>
+                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>...</p>
                     </div>
 
                     <div className='lg:w-[100%]'>
@@ -46,8 +46,8 @@ function OurWorkBody() {
                     </div>
 
                     <div className=' w-[100%] lg:h-[25vw] p-5'>
-                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web apps para empresas/negocios</h2>
-                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Nuestro equipo de expertos se toman el tiempo de conocer a nuestros clientes para que el desarrollo de su sitio web sea de mejor experiencia</p>
+                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Diseño UX/UI</h2>
+                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Diseñamos todas las interfaces de su página, con el objetivo de hacer que la experiencia para tus clientes sea lo mas satisfactoria posible.</p>
                     </div>
 
                     
