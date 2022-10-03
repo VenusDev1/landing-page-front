@@ -19,32 +19,34 @@ function ContactPages () {
 
 
     return (
-        <section className='w-[100%] h-[90vh] lg:h-[120vh] mt-20 flex flex-col'>
+        <section className='w-[100%] h-[100vh] flex flex-col'>
             <div className='flex flex-row w-[100%] h-[80%] '>
                 <div className='w-[100%] lg:w-[50%] h-[10] p-8 bg-gradient-to-b from-[#ededed] to-[#F5E4B1] items-center  '>
                     <form onSubmit={sendEmail} className='w-[100%] h-[100%] '>
                         <div className='w-[90%] h-[100%] mx-auto  flex flex-col justify-center items-center '>
                             <h3 className='text-4xl text-center font-goldman font-semibold ' >Contacto</h3>
                             <p className='text-1xl m-1 text-center lg:text-2xl' >Envianos un mail y nuestro equipo se contactara con usted para ayudarlo a resolver su problema lo antes posible.</p>
-                            <div>
-                                <input className='text_campos ' type='text' placeholder='Nombre' name='user_name'/>  
-                            </div>
-                            <div>
-                                <input className='text_campos' type='email' placeholder='Email' name='user_email'/>
-                            </div>
-                            <div>
-                                <input className='text_campos' type='text' placeholder='Asunto' name='user_affair' />  
-                            </div>
-                            <div>
-                                <textarea className='text_campos' placeholder='Mensaje' name='user_message'/>
-                            </div>
-                            <div>
-                                {
-                                    send 
-                                    ? <span className='text-[#05F100]'>form sent successfully!</span>
-                                    : <input id='btn_enviar' type='submit' value='Enviar' />
-                                }
-                            </div>             
+                            <div className='w-[100%] h-auto flex flex-col justify-center '>
+                                <div className='w-[100%] flex '>
+                                    <input className='w-[90%] mx-auto px-3 py-1 text-[18px] border-b-2 border-black my-4  ' type='text' placeholder='Nombre' name='user_name'/>  
+                                </div>
+                                <div className='w-[100%] flex '>
+                                    <input className='w-[90%] mx-auto px-3 py-1 text-[18px] border-b-2 border-black my-4 ' type='email' placeholder='Email' name='user_email'/>
+                                </div>
+                                <div className='w-[100%] flex '>
+                                    <input className='w-[90%] mx-auto px-3 py-1 text-[18px] border-b-2 border-black my-4 ' type='text' placeholder='Asunto' name='user_affair' />  
+                                </div>
+                                <div className='w-[100%] flex '>
+                                    <textarea className='w-[90%] mx-auto px-3 py-1 text-[18px] border-b-2 border-black my-4 ' placeholder='Mensaje' name='user_message'/>
+                                </div>
+                                <div className='w-[100%] flex justify-center '>
+                                    {
+                                        send 
+                                        ? <span className='text-[#05F100]'>form sent successfully!</span>
+                                        : <input id='btn_enviar' type='submit' value='Enviar' />
+                                    }
+                                </div>   
+                            </div>          
                         </div>
                     </form>
                 </div>

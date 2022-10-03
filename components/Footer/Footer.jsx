@@ -10,7 +10,7 @@ function Footer () {
             </div> 
             <div className='w-[100%] lg:w-[50%] lg:flex flex-col lg:justify-center lg:items-center  mb-10'>
                 <h2 className='font-goldman text-[#F5E4B1] text-center text-2xl m-1 p-2'>Contacto</h2>
-                <h3 className='font-goldman text-white text-center text-xl pb-3'>Mail: contacto@venusdev.com</h3>
+                <h3 className='font-goldman text-white text-center text-xl pb-3'>Mail: venusdevit@gmail.com</h3>
                 <h3 className='font-goldman text-white text-center text-xl'>Tel: +54 03513084848</h3>
             </div>
             <div className='redes_footer w-[100%] lg:w-[50%]'>
@@ -24,8 +24,8 @@ function Footer () {
                         </Link> 
                     </div>
                     <div className=' w-[100%] lg:w-[100%]'>
-                        <Link href= '#'>
-                            <a>
+                        <Link href= 'https://www.linkedin.com/in/venus-dev-880749252/'>
+                            <a target="_blank">
                                 <img className='w-[100px] lg:h-[100%] p-3' src='/img/lk_footer.png' alt='Logo Venus'/>
                             </a>
                         </Link>
