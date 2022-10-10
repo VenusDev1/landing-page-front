@@ -19,7 +19,8 @@ function ContactPages () {
 
 
     return (
-        <section className='w-[100%] h-[100vh] flex flex-col'>
+        <section className='w-[100%] h-[100vh] lg:h-auto mt-5 lg:mt-0 flex flex-col'>
+            <div className='w-[100%] hidden h-[60px] lg:block'></div>
             <div className='flex flex-row w-[100%] h-[80%] '>
                 <div className='w-[100%] lg:w-[50%] h-[10] p-8 bg-gradient-to-b from-[#ededed] to-[#F5E4B1] items-center  '>
                     <form onSubmit={sendEmail} className='w-[100%] h-[100%] '>
@@ -54,7 +55,7 @@ function ContactPages () {
                     <img className='w-[100%] h-[100%] ' src='img/contact_page.png' alt='Logo Venus'/>
                 </div>
             </div>
-            <div className='w-[100%] h-[20%] flex justify-center items-center'>
+            <div className='w-[100%] h-[180px] flex justify-center items-center'>
                 <h2 className='text-xl lg:text-4xl font-normal font- text-center '>No te quedes sin tu pagina web. Contactanos</h2> 
             </div>
         </section>

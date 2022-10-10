@@ -11,8 +11,9 @@ export default function Index () {
         <BaseLayout namePage='Servicios Venus' >
             <Navbar/>
             <ServicesHero/>
-                <CTA/>
-                <Footer/>
+            <ServicesBody/>
+            <CTA/>
+            <Footer/>
         </BaseLayout>
     )
 }

@@ -2,11 +2,13 @@ import Link from 'next/link';
 
 function Footer () {
     return (
-    <footer className=' bg-black h-[70vh] lg:h-[45vh] z-[10] p-3 '>
+    <footer className=' bg-black h-auto lg:h-[40vh] z-[10] p-3 '>
         <div className='flex flex-col lg:flex-row lg:justify-between items-center lg:m-0 mb-5'>
-            <div className=' w-[80%] lg:w-[50%] mt-5 mb-10'>
-                <img className='w-[100%]' src='img/venus_logo.png' alt='Logo Venus'/>
-                <h3 className=' text-white m-auto font-goldman text-center text-xl'>Agencia de Desarrollo y Marketing</h3>
+            <div className=' w-[80%] lg:w-[50%] mt-5 mb-5 flex flex-col justify-center items-center'>
+                <Link href='/'>
+                    <img className='cursor-pointer w-[65%] lg:w-[75%] h-auto' src='img/venus_logo.png' alt='Logo Venus'/>
+                </Link>
+                <h3 className=' text-white m-auto font-goldman text-center text-[17px] lg:text-xl'>Agencia de Desarrollo y Marketing</h3>
             </div> 
             <div className='w-[100%] lg:w-[50%] lg:flex flex-col lg:justify-center lg:items-center  mb-10'>
                 <h2 className='font-goldman text-[#F5E4B1] text-center text-2xl m-1 p-2'>Contacto</h2>
@@ -19,14 +21,14 @@ function Footer () {
                     <div className=' w-[100%] lg:w-[100%]'>
                         <Link href= 'https://www.instagram.com/venusdevit/'>
                             <a target="_blank">
-                                <img  className='w-[100%] h-[100%] p-3' src='/img/ig_footer.png' alt='Logo Venus'/>
+                                <img  className='w-[100%] h-[100%] p-3' src='/img/ig_footer.png' alt='Logo Instagram'/>
                             </a>
                         </Link> 
                     </div>
                     <div className=' w-[100%] lg:w-[100%]'>
                         <Link href= 'https://www.linkedin.com/in/venus-dev-880749252/'>
                             <a target="_blank">
-                                <img className='w-[100px] lg:h-[100%] p-3' src='/img/lk_footer.png' alt='Logo Venus'/>
+                                <img className='w-[100px] lg:h-[100%] p-3' src='/img/lk_footer.png' alt='Logo Linkedin'/>
                             </a>
                         </Link>
                     </div>

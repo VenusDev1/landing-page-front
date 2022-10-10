@@ -22,8 +22,8 @@ function OurWorkBody() {
                     </div>
                     
                     <div className=' w-[100%] lg:h-[25vw] p-5'>
-                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web apps para negocios</h2>
-                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>...</p>
+                        <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Creación de Web Apps para negocios</h2>
+                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Desarrolo de aplicaciones web con tecnologias nativas para lograr los objetivos de tu empresa/negocio</p>
                     </div>
                 </div>
                 
@@ -31,7 +31,7 @@ function OurWorkBody() {
                     
                     <div className=' w-[100%] lg:h-[25vw] p-5'>
                         <h2 className='font-monsterrat text-left text-black text-[15px] lg:text-[30px] lg:pb-10 pb-2 uppercase'>Mantenimiento y actualizaciones</h2>
-                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>...</p>
+                        <p className='font-monsterrat text-left text-black text-[10px] lg:text-xl uppercase'>Ofrecemos mantenimiento y mejoras en tu Web o Web App segun tus necesidades</p>
                     </div>
 
                     <div className='lg:w-[100%]'>
