@@ -20,7 +20,6 @@ function ContactPages () {
 
     return (
         <section className='w-[100%] h-[100vh] lg:h-auto mt-5 lg:mt-0 flex flex-col'>
-            <div className='w-[100%] hidden h-[60px] lg:block'></div>
             <div className='flex flex-row w-[100%] h-[80%] '>
                 <div className='w-[100%] lg:w-[50%] h-[10] p-8 bg-gradient-to-b from-[#ededed] to-[#F5E4B1] items-center  '>
                     <form onSubmit={sendEmail} className='w-[100%] h-[100%] '>
