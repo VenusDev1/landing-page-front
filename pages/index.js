@@ -5,6 +5,7 @@ import Services from '../components/Services/Services'
 import ContactPages from '../components/ContactPages/ContactPages';
 import Footer from '../components/Footer/Footer'
 import BaseLayout from '../components/Layouts/BaseLayout'
+import CTAservices from '../components/CTA/CTAservices';
 
 function Index() {
   return (
@@ -13,6 +14,7 @@ function Index() {
       <Hero/>
       <About/>
       <Services/>
+      <CTAservices/>
       <ContactPages/>
       <Footer/>
     </BaseLayout>

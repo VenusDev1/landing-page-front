@@ -7,6 +7,7 @@ export default function Index () {
     return (
         <BaseLayout namePage='Contact Venus' >
             <Navbar/>
+            <div className='w-[100%] hidden h-[60px] lg:block'></div>
             <ContactPages/>
             <Footer/>
         </BaseLayout>
