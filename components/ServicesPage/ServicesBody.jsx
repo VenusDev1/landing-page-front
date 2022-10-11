@@ -76,7 +76,7 @@ function ServicesBody() {
                 <div className=" w-[100%] h-auto min-h-[600px] flex flex-col justify-between items-start m-2 rounded-[4px] border-[2px] border-solid border-black ">
                     <div className="w-[100%] " >
                         <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-[#D0AD65] to-[#F5E4B1]">
-                            <h1 className="text-[20px] lg:text-[30px] font-goldman ">Pagina Profecional</h1>
+                            <h1 className="text-[20px] lg:text-[30px] font-goldman ">Pagina Profesional</h1>
                         </div>
                         <div className="flex flex-col justify-center items-start mt-5">
                             <div className="flex flex-row justify-between items-center m-2">
