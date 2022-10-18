@@ -2,12 +2,12 @@ import Link from "next/link";
 
 function Services () {
     return (
-        <div className='w-[100%] h-auto lg:h-[100vh] flex flex-col '>
-            <div className='serv_tex text-5xl mt-5 mb-5 pt-5'>
+        <div className='w-[100%] h-auto lg:h-[100vh] xl:h-[90vh] flex flex-col '>
+            <div className='serv_tex text-5xl mt-10 mb-5 pt-5'>
                 <h1>Services</h1> 
             </div>
             <div className="w-[100%] h-[90%] flex items-center ">
-                <div className=' bg-gradient-to-b w-[100%] h-auto py-3 flex flex-col lg:flex-row lg:justify-around justify-center items-center lg:bg-gradient-to-l from-[#f1e2b5] via-[#F5E4B1] to-[#252525] pb-10'>
+                <div className=' bg-gradient-to-b w-[100%] h-auto py-3 flex flex-col lg:flex-row lg:justify-around justify-center items-center lg:bg-gradient-to-l from-py via-ty to-sy pb-10'>
                     <div className=' lg:flex w-[340px] h-[400px] lg:justify-center flex flex-col justify-center items-center rounded-lg border-[1px] border-solid bg-white border-black m-5 shadow-lg shadow-black'>
                         <div className=' w-[100%] h-[40%] '>
                             <img src="img/service01.png" alt="section_img"></img>

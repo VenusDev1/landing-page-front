@@ -6,8 +6,8 @@ function ServicesBody() {
             <div className="flex flex-col justify-center lg:flex-row lg:justify-between items-start">
                 <div className="w-[100%] h-auto min-h-[600px] flex flex-col justify-between items-center m-2 rounded-[4px] border-[2px] border-solid border-black ">
                     <div className="w-[100%]">
-                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-[#D0AD65] to-[#F5E4B1]">
-                            <h1 className="text-[20px] lg:text-[30px] font-goldman">Pagina Simple</h1>
+                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-ty to-py">
+                            <h1 className="text-[20px] lg:text-[30px] font-goldman text-white">Página Simple</h1>
                         </div>
                         <div className="flex flex-col justify-center items-start mt-5">
                             <div className="flex flex-row justify-between items-center m-2">
@@ -66,7 +66,7 @@ function ServicesBody() {
                             <h1 className="text-4xl">$35<span className="text-xl">USD</span></h1>
                         </div>
 
-                        <div className="ml-3 p-3 border-l-[3px] border-solid border-[#F5E4B1]">
+                        <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                             <span className="font-montserrat">Entrega:</span>
                             <h1 className="text-2xl">1/2 <span className="text-2xl">Semanas</span></h1>
                         </div>
@@ -75,8 +75,8 @@ function ServicesBody() {
 
                 <div className=" w-[100%] h-auto min-h-[600px] flex flex-col justify-between items-start m-2 rounded-[4px] border-[2px] border-solid border-black ">
                     <div className="w-[100%] " >
-                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-[#D0AD65] to-[#F5E4B1]">
-                            <h1 className="text-[20px] lg:text-[30px] font-goldman ">Pagina Profecional</h1>
+                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-ty to-py">
+                            <h1 className="text-[20px] lg:text-[30px] font-goldman text-white ">Página Profecional</h1>
                         </div>
                         <div className="flex flex-col justify-center items-start mt-5">
                             <div className="flex flex-row justify-between items-center m-2">
@@ -122,7 +122,7 @@ function ServicesBody() {
                                 <span className="font-montserrat">Desde:</span>
                                 <h1 className="text-4xl">$50<span className="text-xl">USD</span></h1>
                             </div>
-                            <div className="ml-3 p-3 border-l-[3px] border-solid border-[#F5E4B1]">
+                            <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                                 <span className="font-montserrat">Entrega:</span>
                                 <h1 className="text-2xl">1/2 <span className="text-2xl">Semanas</span></h1>
                             </div>
@@ -130,8 +130,8 @@ function ServicesBody() {
                 </div>
 
                 <div className="w-[100%] lg:h-auto flex flex-col justify-center lg:flex-col lg:justify-center items-center m-2 rounded-[4px] border-[2px] border-solid border-black ">
-                    <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-[#D0AD65] to-[#F5E4B1]">
-                        <h1 className="text-[20px] lg:text-[30px] font-goldman ">Ecommerce</h1>
+                    <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-ty to-py">
+                        <h1 className="text-[20px] lg:text-[30px] font-goldman text-white ">Ecommerce</h1>
                     </div>
 
                     <div className="flex flex-col justify-center items-start mt-5">
@@ -191,7 +191,7 @@ function ServicesBody() {
                                 <h1 className="text-4xl">$90<span className="text-xl">USD</span></h1>
                             </div>
 
-                            <div className="ml-3 p-3 border-l-[3px] border-solid border-[#F5E4B1]">
+                            <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                                 <span className="font-montserrat">Entrega:</span>
                                 <h1 className="text-2xl">4 <span className="text-2xl">Semanas</span></h1>
                             </div>
@@ -203,8 +203,8 @@ function ServicesBody() {
 
                 <div className=" w-[100%] h-auto min-h-[600px] flex flex-col justify-between items-center m-2 rounded-[4px] border-[2px] border-solid border-black ">
                     <div className="w-[100%]">
-                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-[#D0AD65] to-[#F5E4B1]">
-                            <h1 className="text-[20px] lg:text-[30px] font-goldman ">Plan Completo</h1>
+                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-ty to-py">
+                            <h1 className="text-[20px] lg:text-[30px] font-goldman text-white ">Plan Completo</h1>
                         </div>
                         <div className=" flex flex-col justify-center items-start mt-5">
                             <div className="flex flex-row justify-between items-center m-2">
@@ -232,7 +232,7 @@ function ServicesBody() {
                             <span className="font-montserrat">Desde:</span>
                             <h1 className="text-4xl">$120<span className="text-xl">USD</span></h1>
                         </div>
-                        <div className="ml-3 p-3 border-l-[3px] border-solid border-[#F5E4B1]">
+                        <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                             <span className="font-montserrat">Entrega:</span>
                             <h1 className="text-2xl">4 <span className="text-2xl">Semanas</span></h1>
                         </div>

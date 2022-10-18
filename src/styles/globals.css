@@ -53,8 +53,8 @@ a {
 }
 
 #btn_section:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #FFD428;
+  color: #000;
   transition: 0.2s;
 }
 
@@ -133,9 +133,9 @@ a {
 }
 
 #btn_enviar:hover {
-  background-color: #000000;
-  color: #ffffff;
-  transition: 0.1s;
+  background-color: #FFD428;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .derechos {

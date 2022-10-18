@@ -1,9 +1,9 @@
 
 function About () {
-    return (<about className='w-[100%] h-[60vh] lg:h-[100vh] md:h-[55vw] items-center flex flex-row bg-gradient-to-r from-[#F5E4B1]'>
+    return (<about className='w-[100%] h-[60vh] lg:h-[100vh] xl:h-[80vh] md:h-[55vw] items-center flex flex-row bg-gradient-to-r from-ty to-py '>
 
-                <div className='hidden lg:flex w-[40%] lg:w-[100%] bg-gradient-to-r from-[#F5E4B1] justify-center items-center'>
-                    <img className='hidden md:flex' src='img/about_img.png' alt='about_img'></img>
+                <div className='hidden h-[100%] lg:flex w-[40%] lg:w-[100%] bg-gradient-to-r from-sy justify-center items-center'>
+                    <img className='hidden md:flex' src='/img/aboutImage.png' alt='about_img' />
                 </div>  
 
                 <div className='w-[100%] flex flex-col p-5 lg:p-5 lg:m-3 md:p-20 text-center lg:text-center'>

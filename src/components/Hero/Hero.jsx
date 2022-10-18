@@ -14,7 +14,7 @@ function Hero () {
       </div>
 
       <div className="hidden md:w-[50%] md:flex items-center justify-center ">
-        <img src="img/hero_img.png" alt="section_img" />
+        <img src="/img/heroImage.png" alt="section_img" />
       </div>
     </section>
   );

@@ -1,15 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        py: "#F5E4B1",
-        sy: "#EBCC80",
-        ty: "#D0AD65"
+        py: "#4200CF",
+        sy: "#1C1A6C",
+        ty: "#0E00AE",
+        fy: "#FFD428"
       },
       fontFamily: {
         "goldman": ["Goldman", "cursive"],
