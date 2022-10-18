@@ -21,7 +21,7 @@ function ContactPages () {
     return (
         <section className='w-[100%] h-[100vh] lg:h-auto mt-5 lg:mt-0 flex flex-col'>
             <div className='flex flex-row w-[100%] h-[80%] '>
-                <div className='w-[100%] lg:w-[50%] h-[10] p-8 bg-gradient-to-b from-[#ededed] to-[#F5E4B1] items-center  '>
+                <div className='w-[100%] lg:w-[50%] h-[10] p-8 bg-gradient-to-b from-sy to-py items-center text-white '>
                     <form onSubmit={sendEmail} className='w-[100%] h-[100%] '>
                         <div className='w-[90%] h-[100%] mx-auto  flex flex-col justify-center items-center '>
                             <h3 className='text-4xl text-center font-goldman font-semibold ' >Contacto</h3>
