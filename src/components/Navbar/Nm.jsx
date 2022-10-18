@@ -30,13 +30,13 @@ function Nm () {
                     {isOpen && (
                         <div className='w-[100%] h-[300px] absolute top-[60px] bg-[#121212] flex flex-col justify-center items-center'>
                             <Link  href='/ourwork'>
-                                <a className='px-8 py-2 font-goldman text-xl text-white hover:text-sy mt-5 '>Nuestro Trabajo</a>
+                                <a className='px-8 py-2 font-goldman text-xl text-white hover:text-fy mt-5 '>Nuestro Trabajo</a>
                             </Link>               
                             <Link href='/services'>
-                                <a className='px-8 py-2 font-goldman text-xl text-white hover:text-sy mt-5'>Servicios</a>
+                                <a className='px-8 py-2 font-goldman text-xl text-white hover:text-fy mt-5'>Servicios</a>
                             </Link>             
                             <Link href='/contact'>
-                                <a className=' text-center px-4 py-2 bg-sy hover:bg-ty duration-300 font-goldman text-xl mt-3 text-white rounded-full border-4 border-white ' >
+                                <a className=' text-center px-4 py-2 bg-py hover:bg-fy duration-300 font-goldman text-xl mt-3 text-white rounded-full border-2 border-white ' >
                                     Contacto
                                 </a>
                             </Link>

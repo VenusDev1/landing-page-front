@@ -11,12 +11,12 @@ function Footer () {
                 <h3 className=' text-white m-auto font-goldman text-center text-[17px] lg:text-xl'>Agencia de Desarrollo y Marketing</h3>
             </div> 
             <div className='w-[100%] lg:w-[50%] lg:flex flex-col lg:justify-center lg:items-center  mb-10'>
-                <h2 className='font-goldman text-[#F5E4B1] text-center text-2xl m-1 p-2'>Contacto</h2>
+                <h2 className='font-goldman text-white text-center text-2xl m-1 p-2'>Contacto</h2>
                 <h3 className='font-goldman text-white text-center text-xl pb-3'>Mail: venusdevit@gmail.com</h3>
                 <h3 className='font-goldman text-white text-center text-xl'>Tel: +54 03513084848</h3>
             </div>
             <div className='redes_footer w-[100%] lg:w-[50%]'>
-                <h2 className='font-goldman text-[#F5E4B1] text-center text-2xl'>Redes Sociales</h2>
+                <h2 className='font-goldman text-white text-center text-2xl'>Redes Sociales</h2>
                 <div className='mx-auto flex flex-row justify-between w-[160px]'>
                     <div className=' w-[100%] lg:w-[100%]'>
                         <Link href= 'https://www.instagram.com/venusdevit/'>
