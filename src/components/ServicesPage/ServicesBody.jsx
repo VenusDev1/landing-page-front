@@ -63,7 +63,7 @@ function ServicesBody() {
                     <div className=" flex flex-row justify-between items-center m-5">
                         <div>
                             <span className="font-montserrat">Desde:</span>
-                            <h1 className="text-4xl">$35<span className="text-xl">USD</span></h1>
+                            <h1 className="text-4xl">$50<span className="text-xl">USD</span></h1>
                         </div>
 
                         <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
@@ -120,7 +120,7 @@ function ServicesBody() {
                     <div className=" flex flex-row justify-between items-center m-5">
                             <div>
                                 <span className="font-montserrat">Desde:</span>
-                                <h1 className="text-4xl">$50<span className="text-xl">USD</span></h1>
+                                <h1 className="text-4xl">$80<span className="text-xl">USD</span></h1>
                             </div>
                             <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                                 <span className="font-montserrat">Entrega:</span>
@@ -188,7 +188,7 @@ function ServicesBody() {
                         <div className=" flex flex-row justify-between items-center m-5">
                             <div>
                                 <span className="font-montserrat">Desde:</span>
-                                <h1 className="text-4xl">$90<span className="text-xl">USD</span></h1>
+                                <h1 className="text-4xl">$120<span className="text-xl">USD</span></h1>
                             </div>
 
                             <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
@@ -230,7 +230,7 @@ function ServicesBody() {
                     <div className=" flex flex-row justify-between items-center m-5">
                         <div>
                             <span className="font-montserrat">Desde:</span>
-                            <h1 className="text-4xl">$120<span className="text-xl">USD</span></h1>
+                            <h1 className="text-4xl">$180<span className="text-xl">USD</span></h1>
                         </div>
                         <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                             <span className="font-montserrat">Entrega:</span>
