@@ -3,7 +3,7 @@ function ServicesBody() {
         <section className="z-[99]  h-auto bg-white flex flex-col justify-center items-center mt-5 mb-5">
             <h1 className=" text-[17px] lg:text-4xl text-center font-monsterrat font-semibold underline mb-5 lg:mb-8">Nuestros planes para impulsar tu negocio</h1>
 
-            <div className="flex flex-col justify-center lg:flex-row lg:justify-between items-start">
+            <div className="w-[90%] mx-auto flex flex-col justify-center lg:flex-row lg:justify-between items-start lg:overflow-x-auto ">
                 <div className="w-[100%] h-auto min-h-[600px] flex flex-col justify-between items-center m-2 rounded-[4px] border-[2px] border-solid border-black ">
                     <div className="w-[100%]">
                         <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-ty to-py">
@@ -63,12 +63,12 @@ function ServicesBody() {
                     <div className=" flex flex-row justify-between items-center m-5">
                         <div>
                             <span className="font-montserrat">Desde:</span>
-                            <h1 className="text-4xl">$50<span className="text-xl">USD</span></h1>
+                            <h3 className="text-4xl">$50<span className="text-xl">USD</span></h3>
                         </div>
 
                         <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                             <span className="font-montserrat">Entrega:</span>
-                            <h1 className="text-2xl">1/2 <span className="text-2xl">Semanas</span></h1>
+                            <h3 className="text-2xl">1/2 <span className="text-2xl">Semanas</span></h3>
                         </div>
                     </div>
                 </div>
@@ -120,11 +120,11 @@ function ServicesBody() {
                     <div className=" flex flex-row justify-between items-center m-5">
                             <div>
                                 <span className="font-montserrat">Desde:</span>
-                                <h1 className="text-4xl">$80<span className="text-xl">USD</span></h1>
+                                <h3 className="text-4xl">$80<span className="text-xl">USD</span></h3>
                             </div>
                             <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                                 <span className="font-montserrat">Entrega:</span>
-                                <h1 className="text-2xl">1/2 <span className="text-2xl">Semanas</span></h1>
+                                <h3 className="text-2xl">1/2 <span className="text-2xl">Semanas</span></h3>
                             </div>
                         </div>
                 </div>
@@ -188,12 +188,12 @@ function ServicesBody() {
                         <div className=" flex flex-row justify-between items-center m-5">
                             <div>
                                 <span className="font-montserrat">Desde:</span>
-                                <h1 className="text-4xl">$120<span className="text-xl">USD</span></h1>
+                                <h3 className="text-4xl">$120<span className="text-xl">USD</span></h3>
                             </div>
 
                             <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                                 <span className="font-montserrat">Entrega:</span>
-                                <h1 className="text-2xl">4 <span className="text-2xl">Semanas</span></h1>
+                                <h3 className="text-2xl">4 <span className="text-2xl">Semanas</span></h3>
                             </div>
 
                         </div>
@@ -230,11 +230,61 @@ function ServicesBody() {
                     <div className=" flex flex-row justify-between items-center m-5">
                         <div>
                             <span className="font-montserrat">Desde:</span>
-                            <h1 className="text-4xl">$180<span className="text-xl">USD</span></h1>
+                            <h3 className="text-4xl">$180<span className="text-xl">USD</span></h3>
                         </div>
                         <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
                             <span className="font-montserrat">Entrega:</span>
-                            <h1 className="text-2xl">4 <span className="text-2xl">Semanas</span></h1>
+                            <h3 className="text-2xl">4 <span className="text-2xl">Semanas</span></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" w-[100%] h-auto min-h-[600px] flex flex-col justify-between items-center m-2 rounded-[4px] border-[2px] border-solid border-black ">
+                    <div className="w-[100%]">
+                        <div className=" w-[100%] h-[60px] lg:h-[80px] flex flex-col justify-center items-center bg-gradient-to-t from-ty to-py">
+                            <h1 className="text-[20px] lg:text-[30px] font-goldman text-white ">Web App</h1>
+                        </div>
+                        <div className=" flex flex-col justify-center items-start mt-5">
+                            <div className="flex flex-row justify-between items-center m-2">
+                                <div>
+                                    <img className="w-[50%] h-[50%] lg:w-[70%] " src="/img/svg/cheque.png"  alt="cheque"/>
+                                </div>
+                                <p className="text-[15px] lg:text-[20px] lg:ml-1 font-montserrat">Desarrollo personalizado</p>
+                            </div>
+                            <div className="flex flex-row justify-between items-center m-2">
+                                <div>
+                                    <img className="w-[50%] h-[50%] lg:w-[70%] " src="/img/svg/cheque.png"  alt="cheque"/>
+                                </div>
+                                <p className="text-[15px] lg:text-[20px] lg:ml-1 font-montserrat">Mantenimiento continuo</p>
+                            </div>
+                            <div className="flex flex-row justify-between items-center m-2">
+                                <div>
+                                    <img className="w-[50%] h-[50%] lg:w-[70%] " src="/img/svg/cheque.png"  alt="cheque"/>
+                                </div>
+                                <p className="text-[15px] lg:text-[20px] lg:ml-1 font-montserrat">Diseño</p>
+                            </div>
+                            <div className="flex flex-row justify-between items-center m-2">
+                                <div>
+                                    <img className="w-[50%] h-[50%] lg:w-[70%] " src="/img/svg/cheque.png"  alt="cheque"/>
+                                </div>
+                                <p className="text-[15px] lg:text-[20px] lg:ml-1 font-montserrat">Posicionamiento SEO</p>
+                            </div>
+                            <div className="flex flex-row justify-between items-center m-2">
+                                <div>
+                                    <img className="w-[50%] h-[50%] lg:w-[70%] " src="/img/svg/cheque.png"  alt="cheque"/>
+                                </div>
+                                <p className="text-[15px] lg:text-[20px] lg:ml-1 font-montserrat">Mucho más</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" flex flex-row justify-between items-center m-5">
+                        <div>
+                            <span className="font-montserrat">Desde:</span>
+                            <h3 className="text-4xl">$-<span className="text-xl">USD</span></h3>
+                        </div>
+                        <div className="ml-3 p-3 border-l-[3px] border-solid border-fy">
+                            <span className="font-montserrat">Entrega:</span>
+                            <h3 className="text-2xl">Indefinido</h3>
                         </div>
                     </div>
                 </div>
