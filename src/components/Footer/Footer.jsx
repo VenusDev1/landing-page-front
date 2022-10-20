@@ -19,7 +19,7 @@ function Footer () {
                 <h2 className='font-goldman text-white text-center text-2xl'>Redes Sociales</h2>
                 <div className='mx-auto flex flex-row justify-between w-[160px]'>
                     <div className=' w-[100%] lg:w-[100%]'>
-                        <Link href= 'https://www.instagram.com/venusdevit/'>
+                        <Link href= 'https://www.instagram.com/venusdev.tech/'>
                             <a target="_blank">
                                 <img  className='w-[100%] h-[100%] p-3' src='/img/ig_footer.png' alt='Logo Instagram'/>
                             </a>
